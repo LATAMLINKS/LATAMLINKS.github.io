@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'LatamLinks',
-  description: 'An new app for use',
+  description: 'Simplifying your path to success in Mexico and Latin America',
 }
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="es" data-bs-theme="dark">
+    <html lang="en" data-bs-theme="white">
       <body className={inter.className}>
         <Navbar />
         {children}
