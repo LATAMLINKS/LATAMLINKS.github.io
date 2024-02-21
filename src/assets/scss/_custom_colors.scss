@@ -1,0 +1,17 @@
+// Add a custom color to new theme maps
+// Light mode
+
+$theme-colors: (
+  "primary": #4b2f78,
+  "secondary": #eab600,
+  "third": #ecdafd,
+);
+
+// Required
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// Remainder of Bootstrap imports
+@import "../../../node_modules/bootstrap/scss/root";
+@import "../../../node_modules/bootstrap/scss/reboot";
+@import "../../../node_modules/bootstrap/scss/type";
+// etc

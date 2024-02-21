@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import './globals.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import { Navbar } from '@/components/Navbar/navbar'
+import '../../node_modules/bootstrap/scss/bootstrap.scss'
+import '../assets/scss/_custom_colors.scss'
+import { Navbar } from '@/components/sections/Navbar/Navbar'
+import { BootstrapClient } from '@/components/Bootstrap/BootstrapClient'
+import { Footer } from '@/components/sections/Footer/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -18,8 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en" data-bs-theme="white">
       <body className={inter.className}>
+        <BootstrapClient />
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   )

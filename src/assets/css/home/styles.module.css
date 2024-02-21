@@ -1,0 +1,13 @@
+.imageContainer {
+  width: 100%;
+  height: 360px;
+  padding-left: 4rem;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.mainBannerImage {
+  transform: rotate(-51.63deg);
+  width: 450px;
+  height: 450px;
+}
