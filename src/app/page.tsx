@@ -33,6 +33,56 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </main>
+      <section className={styles.parallax}>
+        <div className="h-100 d-flex flex-column justify-content-center align-items-center">
+          <p className="fs-4 fw-semibold text-white text-center w-75"> Whether you&apos;re pursuing significant ventures or simply need
+            a company&apos;s contact, <span className="text-secondary">LatAmLinks</span> is ready to help you</p>
+          <br />
+          <button className="btn btn-primary mx-auto text-white">
+            Learn More
+          </button>
+        </div>
+      </section>
+      <section className={"bg-primary " + styles.colorBanner}>
+        <div className="h-100 d-flex flex-column justify-content-center align-items-center">
+          <p className="fs-4 fw-semibold text-white text-center w-50">
+            We have a unique network to support you in your business development journey
+          </p>
+        </div>
+      </section>
+      <section className="mt-3">
+        <div className="container">
+          <div className="row gx-4 gy-2">
+            <div className="p-3 col-12 col-md-4">
+              <div className={"card bg-primary shadow-lg " + styles.card}>
+                <div className="card-body">
+                  <p className="card-text text-white">
+                    Seamlessly navigate the entry and expansion into new dynamic markets
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="p-3 col-12 col-md-4">
+              <div className="card bg-third shadow-lg">
+                <div className="card-body">
+                  <p className="card-text">
+                    Our services span from facilitating small ventures, such as sourcing optimal shipping solutions
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="p-3 col-12 col-md-4">
+              <div className="card shadow-lg">
+                <div className="card-body">
+                  <p className="card-text">
+                    To larger ventures such as setting up manufacturing operations
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main >
   )
 }

@@ -11,3 +11,25 @@
   width: 450px;
   height: 450px;
 }
+
+.parallax {
+  /* The image used */
+  background-image: url("../../../../public/assets/images/HomePage/Stock_Photo_3.png");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.colorBanner {
+  height: 250px;
+}
+
+.card {
+  height: 205px;
+}

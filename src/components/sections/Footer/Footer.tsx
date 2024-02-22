@@ -5,7 +5,7 @@ import linkedInLogo from "../../../../public/assets/images/Socials/linkedin_1.sv
 
 const Footer = (props: any) => {
   return (
-    <footer className="container">
+    <footer className="container mt-4">
       <div className="row">
         <div className="col-lg-3 mb-3">
           <a className="navbar-brand" href="/">
