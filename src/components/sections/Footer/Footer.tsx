@@ -13,10 +13,10 @@ const Footer = (props: any) => {
           </a>
         </div>
         <div className="col-lg-3">
-          <span className="fs-3 text-secondary">Resources</span>
+          <span className="fs-5 text-secondary">Resources</span>
         </div>
         <div className="col-lg-3">
-          <span className="fs-3 text-secondary">Legal</span>
+          <span className="fs-5 text-secondary">Legal</span>
         </div>
         <div className="col-lg-3 d-flex align-items-end">
           <a className="navbar-brand" href="/">
