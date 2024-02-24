@@ -116,7 +116,6 @@ export default function Home() {
                           <span className="text-white fs-4 fw-semibold ">
                             1
                           </span>
-                          <div className={styles.firstListItem} />
                         </div>
                       </div>
                       <div className="col-10">
@@ -149,7 +148,6 @@ export default function Home() {
                           <span className="text-white fs-4 fw-semibold text-center">
                             2
                           </span>
-                          <div className={styles.mediumListItem} />
                         </div>
                       </div>
                       <div className="col-10">
@@ -182,7 +180,6 @@ export default function Home() {
                           <span className="text-white fs-4 fw-semibold ">
                             3
                           </span>
-                          <div className={styles.lastListItem} />
                         </div>
                       </div>
                       <div className="col-10">
