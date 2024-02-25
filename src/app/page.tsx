@@ -178,7 +178,7 @@ export default function Home() {
                       <div className="col-2 text-center">
                         <div className={"pt-2 " + styles.listItemContainer}>
                           <span className="text-white fs-4 fw-semibold ">
-                            3
+                            5ß
                           </span>
                         </div>
                       </div>
