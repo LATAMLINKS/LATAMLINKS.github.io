@@ -120,7 +120,7 @@ export default function Home() {
                       </div>
                       <div className="col-10">
                         <button
-                          className="btn btn-fourth bg-fourth text-white fs-4 fw-bold w-75 ms-2"
+                          className="btn btn-fourth bg-fourth text-white fs-6 fw-bold w-75 ms-2"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse-1"
