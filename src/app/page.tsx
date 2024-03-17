@@ -22,9 +22,9 @@ export default function Home() {
               </p>
               <div className="row">
                 <div className="col-12">
-                  <button type="button" className="btn btn-light bg-white text-primary shadow-lg rounded">
-                    Start Here
-                  </button>
+                  <a href="ContactUs" type="button" className="btn btn-light bg-white text-primary shadow-lg rounded btn-">
+                    Contact us
+                  </a>
                 </div>
               </div>
             </div>
@@ -36,14 +36,15 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
       <section className={styles.parallax}>
         <div className="h-100 d-flex flex-column justify-content-center align-items-center">
           <p className="fs-4 fw-semibold text-white text-center w-75"> Whether you&apos;re pursuing significant ventures or simply need
             a company&apos;s contact, <span className="text-secondary">LatAmLinks</span> is ready to help you</p>
           <br />
-          <button className="btn btn-primary mx-auto text-white">
+          <a href="OurServices" className="btn btn-primary mx-auto text-white">
             Learn More
-          </button>
+          </a>
         </div>
       </section>
       <section className={"bg-primary " + styles.colorBanner}>
@@ -104,7 +105,7 @@ export default function Home() {
                 for companies looking to establish a presence
                 in <span className="text-secondary">Mexico</span> and <span className="text-secondary">Latin America</span>
               </p>
-              <a href="" className="btn btn-primary mb-5">Learn More</a>
+              <a href="ContactUs" className="btn btn-primary mb-5">Contact us</a>
             </div>
             <div className="col-12 col-md-6">
               <div className="d-flex flex-column justify-content-center align-items-center">

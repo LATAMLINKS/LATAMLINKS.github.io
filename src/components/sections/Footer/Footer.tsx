@@ -13,16 +13,28 @@ const Footer = (props: any) => {
           </a>
         </div>
         <div className="col-lg-3">
-          <span className="fs-5 text-secondary">Resources</span>
+          <span className="fs-5 text-secondary">Resources</span> <br></br>
+          <a className="fs-6 text-primary" style={{textDecoration:"none"}} href="F.A.Q">F.A.Q</a> <br></br>
+          <a className="fs-6 text-primary" style={{textDecoration:"none"}} href="F.A.Q">Careers</a> <br></br>
+          <a className="fs-6 text-primary" style={{textDecoration:"none"}} href="F.A.Q">Partners</a> <br></br>
         </div>
+
         <div className="col-lg-3">
-          <span className="fs-5 text-secondary">Legal</span>
-        </div>
-        <div className="col-lg-3 d-flex align-items-end">
+          <span className="fs-5 text-secondary">Legal</span> <br></br>
+          <a className="fs-6 text-primary" style={{textDecoration:"none"}} href="PrivacyPolicy">Privacy Policy</a> <br></br>
+          <a className="fs-6 text-primary" style={{textDecoration:"none"}} href="TermsOfUse">Terms of use</a> <br></br>
+          <a className="fs-6 text-primary" style={{textDecoration:"none"}} href="ServiceGuideline">Service Guidelines</a> 
+
+        </div>  
+
+        <div className="col-lg-3 d-flex flex-column align-items-start text-primary">
           <a className="navbar-brand" href="/">
             <Image src={linkedInLogo} alt="logo" width={30} height={30} className="d-inline-block" />
-          </a>
+          </a> 
+          <span className="fs-6">Inquiries?</span> 
+          <span className="fs-6">Inquiries@LatAmLinks.com</span> <br></br>
         </div>
+          
       </div>
     </footer>
   )

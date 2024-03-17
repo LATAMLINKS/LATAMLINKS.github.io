@@ -1,0 +1,41 @@
+.tabs {
+  display: flex;
+  background-color: "#4F1D7D";
+  border-radius: 10px;
+}
+
+.tab {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-right: 1px solid white;
+}
+
+.tab:last-child {
+  border-right: none;
+}
+
+/* Estilos para el contenido de las preguntas */
+.content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.question h3 {
+  margin: 0;
+}
+
+.answer {
+  display: none; /* Ocultamos las respuestas por defecto */
+}
+
+.question::after {
+  content: "+"; /* Símbolo de más para expandir respuestas */
+  float: right;
+  cursor: pointer;
+}
+
+.question.open::after {
+  content: "-"; /* Cambiamos a símbolo de menos cuando se expande la respuesta */
+}
