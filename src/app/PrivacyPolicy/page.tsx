@@ -3,9 +3,6 @@ import Image from "next/image";
 
 import styles from "@/assets/css/home/styles.module.css"
 
-
-import logoCirculo from "../../public/assets/images/Logo_Circulo.png"
-
 export default function privacyPolicy(){
   return (
     <div>
@@ -20,7 +17,7 @@ export default function privacyPolicy(){
         <div className="container m-4">
           <br></br>
         <div className="col-12">
-          <div className="container bg-white">
+          <div className="container bg-white rounded">
             <div className="row">
               <div className="col-12 col-md-8 offset-md-2">
                   <p className="fs-5 fw-bold">
@@ -102,7 +99,7 @@ export default function privacyPolicy(){
                   <p className="fs-6 fw-bold">
                     10. Contact Us
                   </p>
-                  For questions about this Policy, please contact us at dpo@latamlinks.com <br></br>
+                  For questions about this Policy, please contact us at dpo@latamlinks.com <br></br><br></br>
               </div>
             </div>
           </div>
@@ -110,6 +107,7 @@ export default function privacyPolicy(){
      </div>
     </div>
     </div>
+    <br></br><br></br>
     </section> 
     </div>
   )

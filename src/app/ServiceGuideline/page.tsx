@@ -21,7 +21,7 @@ export default function serviceGuidelines(){
         </div>
 
         <div className="col-12">
-          <div className="container bg-white">
+          <div className="container bg-white rounded">
             <div className="row">
               <div className="col-12 col-md-8 offset-md-2">
                 <p className="fs-5 fw-bold">
@@ -82,11 +82,12 @@ export default function serviceGuidelines(){
                   8. Modification and Adjustment of Services
                 </p>
                 8.1. LatAmLinks may modify or adjust services based on the evolving needs of the Client or market changes.<br></br>
-                8.2. Any significant changes to services will be communicated to the Client in advance.
+                8.2. Any significant changes to services will be communicated to the Client in advance.<br></br><br></br>
               </div>
             </div>
           </div>
         </div>
+        <br></br><br></br>
     </section> 
     </div>
   )

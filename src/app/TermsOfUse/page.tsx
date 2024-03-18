@@ -21,7 +21,7 @@ export default function TermsOfUse(){
         </div>
 
         <div className="col-12">
-          <div className="container bg-white">
+          <div className="container bg-white rounded">
             <div className="row">
               <div className="col-12 col-md-8 offset-md-2">
                 <p className="fs-5 fw-bold">
@@ -105,8 +105,8 @@ export default function TermsOfUse(){
             </div>
           </div>
         </div>
+        <br></br><br></br> 
     </section> 
-    
     </div>
   )
 }

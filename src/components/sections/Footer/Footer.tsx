@@ -15,7 +15,7 @@ const Footer = (props: any) => {
         <div className="col-lg-3">
           <span className="fs-5 text-secondary">Resources</span> <br></br>
           <a className="fs-6 text-primary" style={{textDecoration:"none"}} href="F.A.Q">F.A.Q</a> <br></br>
-          <a className="fs-6 text-primary" style={{textDecoration:"none"}} href="F.A.Q">Careers</a> <br></br>
+          <a className="fs-6 text-primary" style={{textDecoration:"none"}} href="Careers">Careers</a> <br></br>
           <a className="fs-6 text-primary" style={{textDecoration:"none"}} href="F.A.Q">Partners</a> <br></br>
         </div>
 
