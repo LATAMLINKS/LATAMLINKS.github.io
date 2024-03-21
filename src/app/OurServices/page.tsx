@@ -231,6 +231,52 @@ export default function OurServices() {
           </div>
         </div>
       </div>
+      <div className="row bg-fifth mt-4 p-4">
+        <div className="col-12 col-md-4 text-white fs-3 fw-bold">
+          Inquiries<span className="text-secondary">?</span>
+        </div>
+        <div className="col-12 col-md-5">
+          <div className="input-group mb-3">
+            <input
+              type="text"
+              className="form-control rounded-pill"
+              placeholder="Your name"
+              aria-label="Enter your name"
+              aria-describedby="basic-addon2"
+            />
+          </div>
+        </div>
+        <div className="col-12 col-md-5">
+          <div className="input-group mb-3">
+            <input
+              type="text"
+              className="form-control rounded-pill"
+              placeholder="Email Address"
+              aria-label="Enter your email address"
+              aria-describedby="basic-addon2"
+            />
+          </div>
+        </div>
+        <div className="col-12 col-md-5">
+          <div className="input-group mb-3">
+            <textarea
+              className="form-control rounded-pill"
+              placeholder="Please, don't hesitate to ask us any questions on our services"
+              aria-label="Enter your email address"
+              aria-describedby="basic-addon2"
+            />
+          </div>
+        </div>
+        <div className="col-6 offset-4">
+          <a
+            href="PartnersAppliedPage"
+            className="btn btn-secondary bg-secondary text-white fs-6 ms-3 mt-4 text-center"
+            type="button"
+          >
+            Send message <br></br>
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
