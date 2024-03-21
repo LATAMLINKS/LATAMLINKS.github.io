@@ -245,8 +245,6 @@ export default function OurServices() {
               aria-describedby="basic-addon2"
             />
           </div>
-        </div>
-        <div className="col-12 col-md-5">
           <div className="input-group mb-3">
             <input
               type="text"
@@ -256,8 +254,6 @@ export default function OurServices() {
               aria-describedby="basic-addon2"
             />
           </div>
-        </div>
-        <div className="col-12 col-md-5">
           <div className="input-group mb-3">
             <textarea
               className="form-control rounded-pill"
@@ -266,15 +262,15 @@ export default function OurServices() {
               aria-describedby="basic-addon2"
             />
           </div>
-        </div>
-        <div className="col-6 offset-4">
-          <a
-            href="PartnersAppliedPage"
-            className="btn btn-secondary bg-secondary text-white fs-6 ms-3 mt-4 text-center"
-            type="button"
-          >
-            Send message <br></br>
-          </a>
+          <div className="col-6 offset-4">
+            <a
+              href="PartnersAppliedPage"
+              className="btn btn-secondary bg-secondary text-white fs-6 ms-3 mt-4 text-center"
+              type="button"
+            >
+              Send message <br></br>
+            </a>
+          </div>
         </div>
       </div>
     </div>
