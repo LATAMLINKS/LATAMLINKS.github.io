@@ -185,7 +185,7 @@ export default function JobListing() {
               </div>
               <div className="col-6 offset-4">
                 <a
-                  href="#"
+                  href="JobAppliedPage"
                   className="btn btn-primary bg-primary text-white fs-6 fw-bold ms-3 mt-4 text-center border-white"
                   type="button"
                 >

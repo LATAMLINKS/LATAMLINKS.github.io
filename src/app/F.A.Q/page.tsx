@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import styles from "@/assets/css/home/styles.module.css";
 
-import logoCirculo from "@/assets/images/Logo_Circulo.png";
+import logoCirculo from "../../../public/assets/images/Logo_Circulo.png";
 import Table from "@/assets/images/Table.png";
 import { useState } from "react";
 

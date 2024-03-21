@@ -1,9 +1,4 @@
 import React from "react";
-import Image from "next/image";
-
-import styles from "@/assets/css/home/styles.module.css";
-
-import logoCirculo from "@/assets/images/Logo_Circulo.png";
 
 export default function ContactUs() {
   return (
