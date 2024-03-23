@@ -1,9 +1,10 @@
 import React from "react";
+import styles from "@/assets/css/home/styles.module.css";
 
 export default function ContactUs() {
   return (
-    <div className="bg-gradient-primary">
-      <section className="bg-third py-4 py-md-0 vh-100 d-flex align-items-center">
+    <div className={styles.simpleBg}>
+      <section className="py-4 py-md-0 vh-100 d-flex align-items-center">
         <div className="container-fluid">
           <div className="row">
             <div className="col-12 col-md-6">
